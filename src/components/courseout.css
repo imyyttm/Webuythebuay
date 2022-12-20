@@ -1,0 +1,8 @@
+.courseouttitle h1{
+    text-align: center;
+    border-bottom: 3px solid #800606;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    font-weight:450;
+}

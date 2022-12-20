@@ -1,0 +1,48 @@
+.largeBox{
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    margin-bottom: 50px;
+    background: #fff4e1;
+    padding-left: 100px;
+    height: 600px;
+}
+.coursedetailtitle h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.newpic{
+    margin-top:300px;
+}
+.picture h4{
+    text-align: center;
+}
+.picture{
+    background: rgb(242, 184, 184);
+    border-radius: 30px;
+    width: 350px;
+    height: 350px;
+    margin-top:30px;
+}
+.Inbox{
+    padding-top: 20px;
+    border-radius: 30px;
+    margin-right: 50px;
+}
+.Inbox h4{
+    margin-left: 30px;
+}
+.coursesavebox h4{
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    background: #800606 ;
+    width: 80px;
+    height: 30px;
+}

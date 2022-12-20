@@ -1,0 +1,107 @@
+.NameClip{
+    background: #800606;
+    color: #fff;
+    width: 450px;
+    margin-left: 50px;
+    padding-left:20px;
+    padding-right: 15px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Clip{
+    border-radius: 10px;
+    margin-left: 28%;
+    background: #ffdede;
+    width: 780px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right: 5px;
+    padding-bottom: 30px;
+}
+.chart {
+    background: rgba(159, 0, 0, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: 10%;
+}
+    .chart span {
+        /* You can modify the value below to change the distance between the percentage number and the bar */
+        margin-left: 5px;
+        color: rgb(109, 0, 0);
+        font-weight: bolder;
+    }
+
+.bar {
+    /* You can modify the total time used for the animation here */
+    animation: load 3s normal forwards;
+    /* 
+    Add a little spice by having a shadow below the bar.
+    Feel free to comment out this line below to have an even LITE version :D 
+    */
+    box-shadow: 0 10px 40px -10px rgb(220, 135, 135);
+
+    border-radius: 100px;
+    background: rgb(95, 9, 9);
+    height: 30px;
+    width: 0;
+} 
+.CheckStu{
+    width: 310px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 10%;
+    background: #800606;
+    color: #fff;
+    margin-right: 73%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 0%;
+    }
+}
+.detail{
+    background: #ffdede;
+    width: 350px;
+    margin-left: 70%;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    margin-right: 40px;
+}
+.infoClip{
+    background: #670000 ;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 90px;
+    margin-left: 1160px;
+}
+.Buttonnext{
+    margin-left: 1200px ;
+    background: #800606;
+    width: 70px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 20%;
+    margin-top: 10px;
+}
+.Buttonnext h4{
+    color: #fff;
+}

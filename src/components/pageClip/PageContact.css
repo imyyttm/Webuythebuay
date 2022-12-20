@@ -1,0 +1,32 @@
+.Con{
+    text-align: center;
+    color: rgb(95, 9, 9);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.Con img{
+    border-bottom: 3px solid #800606;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.ContactBox-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 50px;
+    color: rgb(114, 114, 114);
+    margin-bottom: 50px;
+}
+.mother{
+    color:#800606;
+}
+.Location{
+    background: #ffdede ;
+    width: 350px;
+    height: 500px;
+    padding-left: 50px;
+    border-radius: 10%;
+
+}

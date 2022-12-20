@@ -1,0 +1,27 @@
+.table{
+  text-align: center;
+  border-width: 10px;
+}
+.table tbody{
+  text-align: center;
+}
+.table tr{
+  border-width: 1px;
+}
+.Yes{
+  margin-right: 5px;
+  background-color: green;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 12px;
+  width: 15%;
+  border: 1px solid black;
+}
+.No{
+  background-color: red;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 12px;
+  width: 15%;
+  border: 1px solid black;
+}

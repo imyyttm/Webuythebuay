@@ -1,0 +1,42 @@
+.headerbox h1{
+    padding-top:30px;
+    text-align: center;
+}
+.Insertbox{
+    display:flex;    
+    justify-content: center;
+    align-items: center;
+    
+}
+.Abox{
+    border-radius: 30px;
+    background: #fff4e1;
+    width: 1000px;
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.insert-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.savebox h4{
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15px;
+    background: #800606 ;
+    width: 80px;
+    height: 40px;
+}
+
+
+/*text-align: center*/

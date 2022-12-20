@@ -1,0 +1,37 @@
+.pagehome{
+    border-bottom: 2px solid #800606;
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pagehome h4{
+    font-weight:300;
+    font-size:1cm;
+}
+.course-grid img{
+    display: block;
+    width: 65%;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: 35px;
+}
+.coursebox{
+    border-radius: 30px;
+    background: #fff4e1;
+    width: 75%;
+}
+.coursebox h4{
+    text-align: center;
+    font-weight:300;
+}
+.course-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 150px;
+    margin-right: auto;
+    margin-top: 20px;
+}

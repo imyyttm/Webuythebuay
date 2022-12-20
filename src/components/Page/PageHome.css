@@ -1,0 +1,63 @@
+.picpagehome img{
+    padding-top: 50px;
+    max-width: 700px;
+    max-height: 500px;
+}
+.picpagehome{
+    margin-left: 400px;
+}
+.webpage{
+    width: 50%;
+}
+.titlehomepage h1{
+    size: 5px;
+    font-weight: 1;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    text-align: center;
+}
+.titlehomepage{
+    margin-left: 600px;
+    margin-right: 600px;
+    border-bottom: 2px solid #800608;
+    margin-bottom: 20px;
+}
+.underpichomepage{
+    text-align: center;
+    color: #800608;
+    padding-top: 15px;
+}
+.reason-grid{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin-left: 130px;
+}
+.reasonTitle{
+    width: 220px;
+}
+.reasonTitle h4{
+    font-weight: bolder;
+}
+.reasonTitle h6{
+    color: rgba(105, 102, 102, 0.708);
+}
+.RecommendCourse{
+    color: #800608;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+.homepagecoursebttm {
+    border-radius: 30px;
+    background: #800608;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 40%;
+    margin-bottom: 30px;
+}
+.homepagecoursebttm h4{
+    color: #fff;
+    text-align: center;
+}

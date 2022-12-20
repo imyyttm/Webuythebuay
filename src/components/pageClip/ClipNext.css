@@ -1,0 +1,44 @@
+.chart {
+    background: rgba(159, 0, 0, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: 10%;
+}
+    .chart span {
+        /* You can modify the value below to change the distance between the percentage number and the bar */
+        margin-left: 5px;
+        color: rgb(109, 0, 0);
+        font-weight: bolder;
+    }
+
+.bar01 {
+    /* You can modify the total time used for the animation here */
+    animation: load01 3s normal forwards;
+    /* 
+    Add a little spice by having a shadow below the bar.
+    Feel free to comment out this line below to have an even LITE version :D 
+    */
+    box-shadow: 0 10px 40px -10px rgb(220, 135, 135);
+
+    border-radius: 100px;
+    background: rgb(95, 9, 9);
+    height: 30px;
+    width: 0;
+} 
+
+@keyframes load01 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 10%;
+    }
+}
